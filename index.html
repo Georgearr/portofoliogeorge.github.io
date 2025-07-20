@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Arrev Portofolio</title>
+    
+    <!-- buwat icon favicon -->
+    <link rel="shortcut icon" href="img/code-solid.svg" type="image/x-icon">
+
+
+    <!-- gugel fontsnya bang -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- fontnya bg -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- link cssnya bg -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navigasinya banh -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>George <!-- ya in gweh ehe--></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <!-- tombol darkmode banh -->
+            <div class="dark-toggle-wrapper">
+            <label class="switch">
+                <input type="checkbox" id="darkModeSwitch">
+                <span class="slider">
+                <span class="icon sun"><i class="fas fa-sun"></i></span>
+                <span class="icon moon"><i class="fas fa-moon"></i></span>
+                </span>
+            </label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- homepagenya banh -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="anime-blue">George</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Full-Stack Developer, Network Engineer & Multimedia Creator
+                </p>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <img src="img/(1).jpeg">
+                    <div class="hero-badge">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- aboutnya banh -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/(2).jpeg">
+                </div>
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>My Story</h3>
+                        <p>
+                            From audio mixing, and obs template editing at night, I realized that multimedia wasn’t just a hobby, it was my passion. Choosing this path in school means stepping closer to my future in computing. This is where i belong, and i’m ready to grow, learn, and create.
+                        </p>
+                        <div class="about-skills">
+                            <div class="skill-item">
+                                <div class="skill-icon anime-blue-bg">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Programming</h4>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon anime-coral-bg">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Network Engineering</h4>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon anime-purple-bg">
+                                    <i class="fas fa-camera"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Multimedia</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bagian skillsnya banh -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon anime-blue-bg">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>HTML CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar blue" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Javascript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar blue" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar blue" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Lua</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar blue" data-width="88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon anime-coral-bg">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Network Engineering</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Mikrotik Networking</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar coral" data-width="92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Cisco Packet Tracer</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar coral" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Topology Designer</span>
+                                <span>55%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar coral" data-width="55%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Server Configuration</span>
+                                <span>77%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar coral" data-width="77%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon anime-purple-bg">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3>Multimedia</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>OBS Skill</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar purple" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Powerpoint and Canva</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar purple" data-width="92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Handycam Controlling</span>
+                                <span>45%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar purple" data-width="45%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Audio Mixing</span>
+                                <span>96%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar purple" data-width="96%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon anime-blue-bg">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Full-stack web developer.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> HTML CSS JS Applications</li>
+                        <li><i class="fas fa-check"></i> MySQL Backend Development</li>
+                        <li><i class="fas fa-check"></i> Database Design</li>
+                        <li><i class="fas fa-check"></i> API Development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon anime-coral-bg">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Network Solutions</h3>
+                    <p>Network Interface Engineer</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cisco Switch and Router Configuration</li>
+                        <li><i class="fas fa-check"></i> Mikrotik Router (Mainly CCR) and Switch Configuration</li>
+                        <li><i class="fas fa-check"></i> Dell Switch and Router Configuration</li>
+                        <li><i class="fas fa-check"></i> Fortigate Firewall Configuration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon anime-purple-bg">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Multimedia Production</h3>
+                    <p>Multimedia Interface that i can use:</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Video Switcher</li>
+                        <li><i class="fas fa-check"></i> Handycam</li>
+                        <li><i class="fas fa-check"></i> Audio Mixer</li>
+                        <li><i class="fas fa-check"></i> Lightning Mixer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bagian kontaknya bang -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    I would be honored to be considered for recruitment
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                <div class="contact-card">
+                    <h3>Mail Me</h3>
+                    <p style="margin-bottom: 20px;">(Because this page was uploaded to GitHub Pages, this feature is not available.)</p>
+                    <form id="contactForm" action="mail.php" method="POST">
+                    <div class="form-group">
+                        <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                    </form>
+                </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-image">
+                            <img src="img/(4).jpeg">
+                        </div>
+                        <h3>Contact Information</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon anime-blue-bg">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <p>georgearrev@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon anime-coral-bg">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <p>+62 812 - 7985 - 8177</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon anime-purple-bg">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>Palembang, Indonesia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card social-card">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/george_arrev_turnip/" class="social-link anime-coral-bg">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/georgearr" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>George</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Network Solutions</a></li>
+                        <li><a href="#services">Multimedia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/george_arrev_turnip/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/georgearr"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 George A. T. All rights reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
