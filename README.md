@@ -39,3 +39,4 @@ Feel free to fork this project, customize it, or contact me for collaboration:
 
 Email: [georgearrev@gmail.com](mailto:georgearrev@gmail.com)
 
+This Website is deployed on [https://georgearr.github.io/portofoliogeorge.github.io/](https://georgearr.github.io/portofoliogeorge.github.io/)
